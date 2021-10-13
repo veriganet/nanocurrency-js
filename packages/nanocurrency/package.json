@@ -1,5 +1,5 @@
 {
-  "name": "nanocurrency",
+  "name": "@veriganet/nanocurrency",
   "description": "A toolkit for the Nano cryptocurrency, allowing you to derive keys, generate seeds, hashes, signatures, proofs of work and blocks.",
   "version": "2.5.0",
   "author": {
@@ -51,7 +51,7 @@
   "types": "dist/types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marvinroger/nanocurrency-js.git"
+    "url": "https://github.com/veriganet/nanocurrency-js.git"
   },
   "scripts": {
     "build:dev": "yarn build:dev:assembly && yarn build:dev:js",
@@ -69,6 +69,6 @@
     "generate-docs": "fusee generate-docs",
     "lint": "fusee lint",
     "test": "fusee test",
-    "prepublishOnly": "yarn build:prod && yarn test && yarn lint && yarn generate-docs"
+    "prepublishOnly": "yarn build:prod"
   }
 }
