@@ -26,6 +26,7 @@
     "cross-env": "^7.0.0",
     "cross-os": "^1.2.2",
     "cross-var": "^1.1.0",
+    "husky": "^7.0.2",
     "puppeteer": "^2.1.1",
     "rimraf": "^3.0.2",
     "rollup": "^1.6.0",
